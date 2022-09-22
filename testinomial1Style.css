@@ -1,16 +1,18 @@
 body{
     box-sizing: border-box;
     width: 100%;
-    padding: 0px;
     margin: 0px;
 }
 nav{
+    margin: 0 auto;
+    width: 80%;
     display: flex;
     background: rgb(91, 190, 91);
+    align-items: center;
+    justify-content: space-evenly;
 }
 nav > h3{
-    background: blue;
-    margin-left: 30px;
+    margin-left: 0px;
 }
 nav > ul{
     display: flex;
@@ -20,4 +22,20 @@ nav > ul{
 ul li{
     padding: 10px;
     cursor: pointer;
+}
+
+.board{
+    margin: 0 auto;
+    width: 80%;
+    height: auto;
+    background: blue;
+}
+.single_card{
+    display: flex;
+}
+.single_card > .img{
+    width: 200px;
+    height: 200px;
+    margin: 0px;
+    background: pink;
 }
