@@ -1,5 +1,6 @@
 :root{
     --main-width: 80%;
+    --main-margin: 0 auto;
 }
 body{
     box-sizing: border-box;
@@ -66,4 +67,11 @@ ul li{
 }
 .block > .block_cell:hover{
     box-shadow: 2px 2px 1px black;
+    background: blue;
+}
+.three_dot{
+    width: var(--main-width);
+    height: 50px;
+    background: red;
+    margin: 0 auto;
 }
