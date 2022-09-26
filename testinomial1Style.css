@@ -45,10 +45,16 @@ ul li{
     background: pink;
     padding: none;
     margin: 10px;
+    overflow: hidden;
+    border-radius: 5px;
+}
+.img > img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 .single_card > .detail_info{
     width: 70%;
-
 }
 .block{
     width: var(--main-width);
