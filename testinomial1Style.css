@@ -77,7 +77,17 @@ ul li{
 }
 .three_dot{
     width: var(--main-width);
-    height: 50px;
+    height: 30px;
     background: red;
     margin: 0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.dot{
+    width: 20px;
+    height: 20px;
+    background: blue;
+    margin: 10px;
+    border-radius: 10px;
 }
